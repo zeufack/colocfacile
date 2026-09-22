@@ -1,0 +1,64 @@
+# ─── Private documentation (public repo: never commit) ───────────────
+docs/private/
+
+# ─── Secrets & environment ───────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+secrets/
+.secrets/
+
+# ─── Dependencies ────────────────────────────────────────────────────
+node_modules/
+.pnpm-store/
+
+# ─── Build outputs ───────────────────────────────────────────────────
+dist/
+build/
+out/
+.output/
+.vinxi/
+.nitro/
+.tanstack/
+*.tsbuildinfo
+
+# ─── Tooling caches ──────────────────────────────────────────────────
+.turbo/
+.cache/
+.eslintcache
+.vite/
+
+# ─── Tests & coverage ────────────────────────────────────────────────
+coverage/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# ─── Local data (docker volumes, dumps, uploads) ─────────────────────
+.data/
+*.dump
+*.sql.gz
+tmp/
+
+# ─── Logs ────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# ─── Editors & OS ────────────────────────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ─── Claude Code local settings ──────────────────────────────────────
+.claude/settings.local.json
