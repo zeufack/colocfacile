@@ -85,4 +85,4 @@ EasyColoc applique des règles issues du droit français de la location (loi du 
 
 ## Licence
 
-À définir.
+[MIT](LICENSE) © 2026 zeufack
